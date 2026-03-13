@@ -13,10 +13,17 @@ export const clinicInfo = {
   address: "42, Wellness Avenue, Koregaon Park, Pune, Maharashtra 411001",
 };
 
+export const stats = [
+  { id: 1, value: 14, suffix: "+", label: "Years Experience" },
+  { id: 2, value: 12000, suffix: "+", label: "Patients Treated" },
+  { id: 3, value: 18, suffix: "+", label: "Services Offered" },
+  { id: 4, value: 98, suffix: "%", label: "Success Rate" },
+];
+
 export const navLinks = [
-  { label: "Home",       href: "#home" },
-  { label: "Services",  href: "#services" },
-  { label: "About",     href: "#about" },
-  { label: "Why Us",    href: "#why-us" },
-  { label: "Contact",   href: "#contact" },
+  { label: "Home", href: "#home" },
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Why Us", href: "#why-us" },
+  { label: "Contact", href: "#contact" },
 ];
