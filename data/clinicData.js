@@ -1,6 +1,5 @@
 
 export const clinicInfo = {
-  name: "Dr. Sharma's Clinic",
   nameFull: "Dr. Sharma's Clinic",
   doctor: "Dr. Rajesh Sharma",
   qualification: "MBBS MD",
