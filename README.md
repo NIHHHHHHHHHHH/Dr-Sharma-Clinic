@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dr. Sharma's Clinic
 
-## Getting Started
+A modern, responsive clinic website built for Dr. Rajesh Sharma, a general physician based in Pune, Maharashtra.
 
-First, run the development server:
+**Live Site:** [Dr Sharma's Clinic](https://dr-sharma-clinic.vercel.app) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+A full landing page covering the clinic's services, doctor profile, patient testimonials, appointment booking, and contact information.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** — App Router
+- **Tailwind CSS v4** — utility-first styling
+- **Framer Motion** — animations
+- **React Icons** — icon library
+- **Google Fonts** — Poppins + Inter
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Sections
 
-## Deploy on Vercel
+- **Navbar** — sticky navigation with mobile menu
+- **Hero** — doctor introduction with call to action
+- **Stats** — clinic achievements and numbers
+- **Services** — list of medical services offered
+- **About** — doctor background and credentials
+- **Why Us** — key reasons to choose the clinic
+- **Testimonials** — patient reviews
+- **Appointment** — booking form with validation
+- **Contact** — location, phone, email and map
+- **Footer** — links and clinic information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+© 2026 Nihal Gavandi. All rights reserved.
+
+This repository is public for portfolio viewing only. Do not copy, reuse, or redistribute without written permission.
