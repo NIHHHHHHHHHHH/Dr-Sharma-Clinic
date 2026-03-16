@@ -5,6 +5,7 @@ import Stats from "@/components/Stats";
 import Services from "@/components/Services";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Stats />
       <Services />
       <About />
+      <WhyUs />
       <Footer />
     </main>
   );

@@ -77,6 +77,43 @@ export const services = [
   },
 ];
 
+
+export const whyUs = [
+  {
+    id: 1,
+    icon: "FaUserMd",
+    title: "Experienced Doctors",
+    description:
+      "14+ years of trusted medical expertise across multiple specialties under one roof.",
+    color: "#2563EB",
+  },
+  {
+    id: 2,
+    icon: "FaMicroscope",
+    title: "Modern Equipment",
+    description:
+      "Latest diagnostic technology ensuring accurate results and faster treatment decisions.",
+    color: "#16A34A",
+  },
+  {
+    id: 3,
+    icon: "FaHandHoldingHeart",
+    title: "Affordable Pricing",
+    description:
+      "Quality healthcare within everyone's reach - transparent fees with no hidden charges.",
+    color: "#F59E0B",
+  },
+  {
+    id: 4,
+    icon: "FaPhoneAlt",
+    title: "Emergency Support",
+    description:
+      "Round-the-clock assistance and guidance when you need it most, including after hours.",
+    color: "#EF4444",
+  },
+];
+
+
 export const serviceOptions = [
   "General Consultation",
   "Cardiology",
