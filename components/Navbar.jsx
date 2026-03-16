@@ -65,7 +65,7 @@ export default function Navbar() {
             </motion.a>
           </div>
 
-          {/* hamburger — only visible on mobile, toggles the drawer below */}
+          {/* hamburger - only visible on mobile, toggles the drawer below */}
           <button
             className="md:hidden p-2 rounded-lg text-text hover:bg-bg transition-colors"
             onClick={() => setIsOpen(!isOpen)}
@@ -76,7 +76,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* mobile drawer — AnimatePresence handles unmount animation, height: "auto" avoids hardcoding */}
+      {/* mobile drawer - AnimatePresence handles unmount animation, height: "auto" avoids hardcoding */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

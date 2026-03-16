@@ -49,7 +49,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden aspect-square sm:aspect-video lg:aspect-3/4 shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&auto=format&fit=crop&q=80"
-                alt="Dr. Rajesh Sharma consulting a patient at MediCare Plus Clinic"
+                alt="Dr. Rajesh Sharma consulting a patient at Dr Sharma's  Clinic"
                 fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw"
               />
               <motion.div initial={{ scale: 0 }} animate={isInView ? { scale: 1 } : {}}

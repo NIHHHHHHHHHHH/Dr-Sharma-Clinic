@@ -55,7 +55,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.p variants={textVariants} className="text-text-muted text-lg lg:text-xl leading-relaxed mb-8 max-w-xl">
-              Led by <strong className="text-text">{clinicInfo.doctor}, {clinicInfo.qualification}</strong> —
+              Led by <strong className="text-text">{clinicInfo.doctor}, {clinicInfo.qualification}</strong> -
               providing compassionate, evidence-based care to Pune and surrounding communities for over 14 years.
             </motion.p>
 
@@ -90,14 +90,14 @@ export default function Hero() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-4/5 bg-blue-50">
                 <Image
                   src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&auto=format&fit=crop&q=80"
-                  alt="Dr. Rajesh Sharma — Senior Physician at Dr Sharma's Clinic"
+                  alt="Dr. Rajesh Sharma - Senior Physician at Dr Sharma's Clinic"
                   fill className="object-cover object-top" priority
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-dark-bg/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4">
                   <p className="font-heading font-bold text-text text-base leading-tight">{clinicInfo.doctor}</p>
-                  <p className="text-text-muted text-sm mt-0.5">{clinicInfo.qualification} — General Physician</p>
+                  <p className="text-text-muted text-sm mt-0.5">{clinicInfo.qualification} - General Physician</p>
                 </div>
               </div>
 
