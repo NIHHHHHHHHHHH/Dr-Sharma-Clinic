@@ -114,6 +114,36 @@ export const whyUs = [
 ];
 
 
+export const testimonials = [
+  {
+    id: 1,
+    quote:
+      "Dr. Sharma diagnosed my condition when three other doctors couldn't. Truly exceptional expertise and genuine care.",
+    name: "Priya Mehta",
+    city: "Pune",
+    rating: 5,
+    initials: "PM",
+  },
+  {
+    id: 2,
+    quote:
+      "The staff is incredibly professional and the clinic is spotlessly clean. I feel confident every time I visit.",
+    name: "Arun Patil",
+    city: "Nashik",
+    rating: 5,
+    initials: "AP",
+  },
+  {
+    id: 3,
+    quote:
+      "Best pediatric care in Pune. My children have been patients here for 6 years and we wouldn't go anywhere else.",
+    name: "Sunita Joshi",
+    city: "Pune",
+    rating: 5,
+    initials: "SJ",
+  },
+];
+
 export const serviceOptions = [
   "General Consultation",
   "Cardiology",
