@@ -1,3 +1,4 @@
+import WhatsAppFAB from "@/components/WhatsAppFAB";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
       <body className="font-inter bg-bg text-text antialiased">
         {children}
+        <WhatsAppFAB />
       </body>
     </html>
   );
